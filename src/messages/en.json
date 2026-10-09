@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "title": "Emilio González Cánovas · Full stack web developer",
+    "description": "Portfolio of Emilio González Cánovas, full stack web developer. Online stores, booking systems, platforms and corporate websites, live and working.",
+    "ogTagline": "Websites that sell, book and organise."
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "newTab": "(opens in a new tab)"
+  },
+  "nav": {
+    "label": "Main navigation",
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "stack": "Skills",
+    "education": "Education",
+    "contact": "Contact",
+    "homeLink": "Emilio González Cánovas, go to home",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "language": "Language",
+    "currentSection": "Current section"
+  },
+  "path": {
+    "home": "home",
+    "about": "about",
+    "projects": "projects",
+    "stack": "skills",
+    "education": "education",
+    "contact": "contact"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "toLight": "Switch to light mode",
+    "toDark": "Switch to dark mode"
+  },
+  "hero": {
+    "status": "Open to new opportunities",
+    "headline": "Websites that sell, book and organise.",
+    "lead": "Full stack web developer. I design and build complete projects, from the database to the last interaction.",
+    "ctaProjects": "See projects",
+    "ctaContact": "Get in touch",
+    "photoAlt": "Portrait of Emilio González Cánovas",
+    "photoPending": "Photo of Emilio coming soon"
+  },
+  "about": {
+    "title": "First I understand what the business needs. Then I write the code.",
+    "p1": "I'm a full stack web developer with a Higher Vocational Diploma in Cross-Platform Application Development. My projects are live and working: an online store with payments and an admin panel, a car dealership site that imports its catalogue automatically, a booking system, an education platform and a corporate website.",
+    "p2": "Talking to people comes naturally to me: I listen, ask questions and turn what a company needs into concrete technical decisions. I adapt quickly to new teams and environments, I work towards clear goals, and every project teaches me something new.",
+    "principlesLabel": "How I work",
+    "principles": {
+      "communication": {
+        "title": "Straightforward communication",
+        "text": "I explain technical things without jargon and ask before assuming."
+      },
+      "goals": {
+        "title": "Goal-driven",
+        "text": "Every feature has to serve a purpose: selling, booking, organising."
+      },
+      "fullstack": {
+        "title": "End-to-end view",
+        "text": "Interface, server, database and deployment. I understand the whole project."
+      },
+      "learning": {
+        "title": "Always learning",
+        "text": "Payments, scraping, real time: each project pushed me to master something new."
+      }
+    },
+    "lookingLabel": "What I'm looking for",
+    "lookingText": "A role as a full stack web developer or programmer. I also take on freelance projects."
+  },
+  "projects": {
+    "title": "Five live projects. Five different problems.",
+    "intro": "Every image is a real screenshot of each website. The technologies listed have been checked against the source code.",
+    "labels": {
+      "problem": "The need",
+      "features": "What it does",
+      "stack": "Technologies",
+      "visit": "Visit website",
+      "code": "View code",
+      "codePrivate": "Private code",
+      "screenshot": "Screenshot of the {name} website",
+      "screenshotMobile": "Screenshot of {name} on mobile",
+      "scrollHint": "Hover to scroll through the page"
+    },
+    "items": {
+      "suplementacion": {
+        "name": "Suplementación Deportiva",
+        "kind": "E-commerce",
+        "summary": "Online sports nutrition store covering the full purchase cycle: catalogue, cart, payment and order tracking.",
+        "problem": "Selling supplements online with a quick way to find, compare and buy, while letting the store manage products and orders on its own.",
+        "features": {
+          "0": "Online payments with Stripe",
+          "1": "Admin panel with products, orders and statistics",
+          "2": "Catalogue with search, filters and sorting",
+          "3": "Cart and wishlist",
+          "4": "Customer order history",
+          "5": "Deal of the day with countdown",
+          "6": "Club Elite with member benefits",
+          "7": "Technical SEO with sitemap and robots"
+        }
+      },
+      "carboom": {
+        "name": "CarBoom",
+        "kind": "Automotive",
+        "summary": "Website for a used car dealership in Alicante, with a catalogue fed by its Wallapop listings.",
+        "problem": "Avoid keeping stock in two places: cars listed on Wallapop are extracted and shown on the dealership's website.",
+        "features": {
+          "0": "Wallapop listing extraction with Puppeteer and Cheerio",
+          "1": "Scheduled catalogue sync with Vercel Cron",
+          "2": "Catalogue with photos, model and price for every car",
+          "3": "Direct contact via WhatsApp",
+          "4": "Mobile-friendly design"
+        }
+      },
+      "aulas": {
+        "name": "Aulas",
+        "kind": "Education platform",
+        "summary": "Virtual classroom to organise groups and subjects, share resources in the cloud and communicate within each class.",
+        "problem": "Bring a class's materials and communication together in one place, with different permissions depending on each person's role.",
+        "features": {
+          "0": "Sign-up, login and password recovery",
+          "1": "Groups and subjects",
+          "2": "Resource upload and download",
+          "3": "Roles and permissions within each group",
+          "4": "Chat per group and per subject"
+        },
+        "treeTitle": "Actual app structure",
+        "treeNote": "Taken from the repository. The platform requires an account, so only the login page is public."
+      },
+      "powerfitt": {
+        "name": "Reservas PowerFitt",
+        "kind": "Online booking",
+        "summary": "Appointment booking system for a nutrition and training plan service.",
+        "problem": "Let clients book an appointment in a few steps, without calls or messages, and let the professional manage the schedule from a dashboard.",
+        "features": {
+          "0": "Guided three-step booking: details, date and time, confirmation",
+          "1": "Available time slots updated in real time with Socket.IO",
+          "2": "Admin panel with protected access",
+          "3": "Managing, rescheduling and cancelling bookings",
+          "4": "Automatic confirmation and rescheduling emails"
+        }
+      },
+      "efitec": {
+        "name": "Efitec",
+        "kind": "Corporate website",
+        "summary": "Corporate website for an energy efficiency consultancy in Alicante.",
+        "problem": "Present the company's services clearly and make it easy for visitors to get in touch.",
+        "features": {
+          "0": "Services and work process overview",
+          "1": "Contact form that sends to the company's inbox",
+          "2": "WhatsApp contact and social media links",
+          "3": "Legal notice, privacy and cookie policies",
+          "4": "Mobile-friendly design"
+        }
+      }
+    }
+  },
+  "stack": {
+    "title": "What I work on and the tools I use.",
+    "areasLabel": "Areas",
+    "areas": {
+      "web": {
+        "title": "Web development",
+        "text": "Fast, accessible sites ready for search engines."
+      },
+      "apps": {
+        "title": "Web applications",
+        "text": "Users, roles, dashboards and real-time data."
+      },
+      "ecommerce": {
+        "title": "E-commerce",
+        "text": "Catalogue, cart, payments and order management."
+      },
+      "business": {
+        "title": "Business solutions",
+        "text": "Corporate websites, bookings and customer contact."
+      },
+      "automation": {
+        "title": "Automation and data integration",
+        "text": "Scraping, scheduled jobs and connecting services."
+      },
+      "sysadmin": {
+        "title": "Systems administration",
+        "text": "Servers, deployments, Bash and maintenance."
+      }
+    },
+    "matrixLabel": "Where I've used it",
+    "matrixIntro": "Each mark means the technology appears in that project's code.",
+    "matrixCaption": "Technologies used in each project",
+    "matrixTech": "Technology",
+    "used": "Used",
+    "notUsed": "Not used",
+    "matrixNote": "Efitec is not listed because its code is not public.",
+    "declaredLabel": "Languages and tools",
+    "declaredText": "On top of that, I program in Java, Python and Bash, and work with SQL and Git every day."
+  },
+  "education": {
+    "title": "Education and languages.",
+    "educationLabel": "Education",
+    "degree": "Higher Vocational Diploma in Cross-Platform Application Development (DAM)",
+    "school": "IES Poeta Paco Mollà, Petrer (Spain)",
+    "note": "And I keep learning every day: each real project makes me master something new.",
+    "languagesLabel": "Languages",
+    "languages": {
+      "es": {
+        "name": "Spanish",
+        "level": "Native"
+      },
+      "en": {
+        "name": "English",
+        "level": "C1"
+      }
+    }
+  },
+  "contact": {
+    "title": "Shall we build something that works?",
+    "text": "I'm looking for my next role as a full stack web developer or programmer, and I'm open to freelance projects. Tell me what you need.",
+    "cta": "Write to me",
+    "channelsLabel": "Contact channels",
+    "email": "Email",
+    "phone": "Phone",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "location": "Location",
+    "copy": "Copy email",
+    "copied": "Email copied",
+    "copyError": "Couldn't copy. Please select the text manually."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top"
+  },
+  "notFound": {
+    "title": "This page doesn't exist.",
+    "text": "The link may be broken or the address may contain a typo.",
+    "back": "Back to home"
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "title": "Emilio González Cánovas · Desarrollador web full stack",
+    "description": "Portfolio de Emilio González Cánovas, desarrollador web full stack. Tiendas online, sistemas de reservas, plataformas y webs corporativas publicadas y en funcionamiento.",
+    "ogTagline": "Webs que venden, reservan y organizan."
+  },
+  "a11y": {
+    "skip": "Saltar al contenido",
+    "newTab": "(se abre en una pestaña nueva)"
+  },
+  "nav": {
+    "label": "Navegación principal",
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "stack": "Tecnologías",
+    "education": "Formación",
+    "contact": "Contacto",
+    "homeLink": "Emilio González Cánovas, ir al inicio",
+    "menuOpen": "Abrir menú",
+    "menuClose": "Cerrar menú",
+    "language": "Idioma",
+    "currentSection": "Sección actual"
+  },
+  "path": {
+    "home": "inicio",
+    "about": "sobre-mi",
+    "projects": "proyectos",
+    "stack": "tecnologias",
+    "education": "formacion",
+    "contact": "contacto"
+  },
+  "theme": {
+    "toggle": "Cambiar tema",
+    "toLight": "Activar modo claro",
+    "toDark": "Activar modo oscuro"
+  },
+  "hero": {
+    "status": "Disponible para nuevas oportunidades",
+    "headline": "Webs que venden, reservan y organizan.",
+    "lead": "Desarrollador web full stack. Diseño y programo proyectos completos, de la base de datos a la última interacción.",
+    "ctaProjects": "Ver proyectos",
+    "ctaContact": "Contactar",
+    "photoAlt": "Retrato de Emilio González Cánovas",
+    "photoPending": "Fotografía de Emilio pendiente de añadir"
+  },
+  "about": {
+    "title": "Primero entiendo qué necesita el negocio. Después escribo el código.",
+    "p1": "Soy desarrollador web full stack y técnico superior en Desarrollo de Aplicaciones Multiplataforma. Mis proyectos están publicados y funcionando: una tienda online con pagos y panel de administración, la web de un concesionario que importa su catálogo automáticamente, un sistema de reservas, una plataforma educativa y una web corporativa.",
+    "p2": "Me resulta fácil hablar con la gente: escucho, pregunto y convierto lo que necesita una empresa en decisiones técnicas concretas. Me adapto rápido a equipos y entornos nuevos, trabajo con objetivos claros y cada proyecto me deja algo nuevo que aprender.",
+    "principlesLabel": "Cómo trabajo",
+    "principles": {
+      "communication": {
+        "title": "Comunicación directa",
+        "text": "Explico lo técnico sin jerga y pregunto antes de suponer."
+      },
+      "goals": {
+        "title": "Orientado a objetivos",
+        "text": "Cada funcionalidad tiene que servir para algo: vender, reservar, organizar."
+      },
+      "fullstack": {
+        "title": "Visión de principio a fin",
+        "text": "Interfaz, servidor, base de datos y despliegue. Entiendo el proyecto entero."
+      },
+      "learning": {
+        "title": "Aprendizaje constante",
+        "text": "Pagos, scraping, tiempo real: cada proyecto me ha llevado a dominar algo nuevo."
+      }
+    },
+    "lookingLabel": "Qué busco",
+    "lookingText": "Un puesto como desarrollador web full stack o programador. También acepto proyectos freelance."
+  },
+  "projects": {
+    "title": "Cinco proyectos publicados. Cinco problemas distintos.",
+    "intro": "Todas las imágenes son capturas reales de cada web. Las tecnologías indicadas están comprobadas en el código fuente.",
+    "labels": {
+      "problem": "La necesidad",
+      "features": "Qué hace",
+      "stack": "Tecnologías",
+      "visit": "Visitar web",
+      "code": "Ver código",
+      "codePrivate": "Código privado",
+      "screenshot": "Captura de la web de {name}",
+      "screenshotMobile": "Captura de {name} en móvil",
+      "scrollHint": "Pasa el cursor para recorrer la página"
+    },
+    "items": {
+      "suplementacion": {
+        "name": "Suplementación Deportiva",
+        "kind": "Comercio electrónico",
+        "summary": "Tienda online de nutrición deportiva con el ciclo de compra completo: catálogo, carrito, pago y seguimiento de pedidos.",
+        "problem": "Vender suplementos por internet con una experiencia ágil para encontrar, comparar y comprar, y que la tienda pueda gestionar productos y pedidos por su cuenta.",
+        "features": {
+          "0": "Pago online con Stripe",
+          "1": "Panel de administración con productos, pedidos y estadísticas",
+          "2": "Catálogo con buscador, filtros y ordenación",
+          "3": "Carrito y lista de favoritos",
+          "4": "Historial de pedidos del cliente",
+          "5": "Oferta del día con cuenta atrás",
+          "6": "Club Elite con ventajas para miembros",
+          "7": "SEO técnico con sitemap y robots"
+        }
+      },
+      "carboom": {
+        "name": "CarBoom",
+        "kind": "Automoción",
+        "summary": "Web para un concesionario de coches de segunda mano en Alicante, con un catálogo que se alimenta de sus anuncios en Wallapop.",
+        "problem": "No mantener el stock dos veces: los coches publicados en Wallapop se extraen y aparecen en la web del concesionario.",
+        "features": {
+          "0": "Extracción de anuncios de Wallapop con Puppeteer y Cheerio",
+          "1": "Sincronización programada del catálogo con Vercel Cron",
+          "2": "Catálogo con fotos, modelo y precio de cada coche",
+          "3": "Contacto directo por WhatsApp",
+          "4": "Diseño adaptado a móvil"
+        }
+      },
+      "aulas": {
+        "name": "Aulas",
+        "kind": "Plataforma educativa",
+        "summary": "Aula virtual para organizar grupos y asignaturas, compartir recursos en la nube y comunicarse dentro de cada clase.",
+        "problem": "Reunir en un solo sitio los materiales y la comunicación de una clase, con permisos distintos según el rol de cada persona.",
+        "features": {
+          "0": "Registro, inicio de sesión y recuperación de contraseña",
+          "1": "Grupos y asignaturas",
+          "2": "Subida y descarga de recursos",
+          "3": "Roles y permisos dentro de cada grupo",
+          "4": "Chat por grupo y por asignatura"
+        },
+        "treeTitle": "Estructura real de la aplicación",
+        "treeNote": "Extraída del repositorio. La plataforma requiere cuenta, por eso solo el acceso es público."
+      },
+      "powerfitt": {
+        "name": "Reservas PowerFitt",
+        "kind": "Reservas online",
+        "summary": "Sistema de reserva de citas para un servicio de plan nutricional y de entrenamiento.",
+        "problem": "Que los clientes reserven cita en pocos pasos, sin llamadas ni mensajes, y que el profesional gestione la agenda desde un panel.",
+        "features": {
+          "0": "Reserva guiada en tres pasos: datos, fecha y hora, confirmación",
+          "1": "Horas disponibles actualizadas en tiempo real con Socket.IO",
+          "2": "Panel de administración con acceso protegido",
+          "3": "Gestión, cambio de fecha y cancelación de reservas",
+          "4": "Correos automáticos de confirmación y de cambio de cita"
+        }
+      },
+      "efitec": {
+        "name": "Efitec",
+        "kind": "Web corporativa",
+        "summary": "Web corporativa para una consultoría de eficiencia energética de Alicante.",
+        "problem": "Presentar con claridad los servicios de la empresa y facilitar que las visitas se conviertan en contactos.",
+        "features": {
+          "0": "Presentación de servicios y proceso de trabajo",
+          "1": "Formulario de contacto que envía al correo de la empresa",
+          "2": "Contacto por WhatsApp y enlaces a redes sociales",
+          "3": "Aviso legal, política de privacidad y de cookies",
+          "4": "Diseño adaptado a móvil"
+        }
+      }
+    }
+  },
+  "stack": {
+    "title": "En qué trabajo y con qué herramientas.",
+    "areasLabel": "Áreas",
+    "areas": {
+      "web": {
+        "title": "Desarrollo web",
+        "text": "Sitios rápidos, accesibles y preparados para buscadores."
+      },
+      "apps": {
+        "title": "Aplicaciones web",
+        "text": "Usuarios, roles, paneles y datos en tiempo real."
+      },
+      "ecommerce": {
+        "title": "Comercio electrónico",
+        "text": "Catálogo, carrito, pagos y gestión de pedidos."
+      },
+      "business": {
+        "title": "Soluciones para empresas",
+        "text": "Webs corporativas, reservas y contacto con clientes."
+      },
+      "automation": {
+        "title": "Automatización e integración de datos",
+        "text": "Scraping, tareas programadas y conexión entre servicios."
+      },
+      "sysadmin": {
+        "title": "Administración de sistemas",
+        "text": "Servidores, despliegues, Bash y mantenimiento."
+      }
+    },
+    "matrixLabel": "Dónde lo he usado",
+    "matrixIntro": "Cada marca indica que la tecnología aparece en el código del proyecto.",
+    "matrixCaption": "Tecnologías utilizadas en cada proyecto",
+    "matrixTech": "Tecnología",
+    "used": "Usado",
+    "notUsed": "No usado",
+    "matrixNote": "Efitec no aparece porque su código no es público.",
+    "declaredLabel": "Lenguajes y herramientas",
+    "declaredText": "Además de lo anterior, programo en Java, Python y Bash, y trabajo a diario con SQL y Git."
+  },
+  "education": {
+    "title": "Formación e idiomas.",
+    "educationLabel": "Formación",
+    "degree": "Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)",
+    "school": "IES Poeta Paco Mollà, Petrer",
+    "note": "Y sigo aprendiendo cada día: cada proyecto real me obliga a dominar algo nuevo.",
+    "languagesLabel": "Idiomas",
+    "languages": {
+      "es": {
+        "name": "Castellano",
+        "level": "Nativo"
+      },
+      "en": {
+        "name": "Inglés",
+        "level": "C1"
+      }
+    }
+  },
+  "contact": {
+    "title": "¿Construimos algo que funcione?",
+    "text": "Busco mi siguiente puesto como desarrollador web full stack o programador, y estoy abierto a proyectos freelance. Cuéntame qué necesitas.",
+    "cta": "Escríbeme",
+    "channelsLabel": "Canales de contacto",
+    "email": "Correo",
+    "phone": "Teléfono",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "location": "Ubicación",
+    "copy": "Copiar correo",
+    "copied": "Correo copiado",
+    "copyError": "No se pudo copiar. Selecciona el texto manualmente."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "backToTop": "Volver arriba"
+  },
+  "notFound": {
+    "title": "Esta página no existe.",
+    "text": "Puede que el enlace esté roto o que la dirección tenga un error.",
+    "back": "Volver al inicio"
+  }
+}

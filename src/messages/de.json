@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "title": "Emilio González Cánovas · Full-Stack-Webentwickler",
+    "description": "Portfolio von Emilio González Cánovas, Full-Stack-Webentwickler. Onlineshops, Buchungssysteme, Plattformen und Unternehmenswebsites, live und im Einsatz.",
+    "ogTagline": "Websites, die verkaufen, buchen und organisieren."
+  },
+  "a11y": {
+    "skip": "Zum Inhalt springen",
+    "newTab": "(öffnet in einem neuen Tab)"
+  },
+  "nav": {
+    "label": "Hauptnavigation",
+    "home": "Start",
+    "about": "Über mich",
+    "projects": "Projekte",
+    "stack": "Technologien",
+    "education": "Ausbildung",
+    "contact": "Kontakt",
+    "homeLink": "Emilio González Cánovas, zur Startseite",
+    "menuOpen": "Menü öffnen",
+    "menuClose": "Menü schließen",
+    "language": "Sprache",
+    "currentSection": "Aktueller Abschnitt"
+  },
+  "path": {
+    "home": "start",
+    "about": "ueber-mich",
+    "projects": "projekte",
+    "stack": "technologien",
+    "education": "ausbildung",
+    "contact": "kontakt"
+  },
+  "theme": {
+    "toggle": "Design wechseln",
+    "toLight": "Hellen Modus aktivieren",
+    "toDark": "Dunklen Modus aktivieren"
+  },
+  "hero": {
+    "status": "Offen für neue Möglichkeiten",
+    "headline": "Websites, die verkaufen, buchen und organisieren.",
+    "lead": "Full-Stack-Webentwickler. Ich konzipiere und entwickle komplette Projekte, von der Datenbank bis zur letzten Interaktion.",
+    "ctaProjects": "Projekte ansehen",
+    "ctaContact": "Kontakt",
+    "photoAlt": "Porträt von Emilio González Cánovas",
+    "photoPending": "Foto von Emilio folgt in Kürze"
+  },
+  "about": {
+    "title": "Erst verstehe ich, was das Unternehmen braucht. Dann schreibe ich den Code.",
+    "p1": "Ich bin Full-Stack-Webentwickler mit einer staatlich anerkannten Berufsausbildung (Grado Superior) in plattformübergreifender Anwendungsentwicklung. Meine Projekte sind online und in Betrieb: ein Onlineshop mit Zahlungen und Admin-Bereich, die Website eines Autohauses, die ihren Katalog automatisch importiert, ein Buchungssystem, eine Bildungsplattform und eine Unternehmenswebsite.",
+    "p2": "Der Umgang mit Menschen fällt mir leicht: Ich höre zu, frage nach und übersetze die Anforderungen eines Unternehmens in konkrete technische Entscheidungen. Ich finde mich schnell in neuen Teams und Umgebungen zurecht, arbeite zielorientiert, und jedes Projekt bringt mir etwas Neues bei.",
+    "principlesLabel": "Wie ich arbeite",
+    "principles": {
+      "communication": {
+        "title": "Direkte Kommunikation",
+        "text": "Ich erkläre Technisches ohne Fachjargon und frage nach, statt zu vermuten."
+      },
+      "goals": {
+        "title": "Zielorientiert",
+        "text": "Jede Funktion muss einen Zweck erfüllen: verkaufen, buchen, organisieren."
+      },
+      "fullstack": {
+        "title": "Gesamtblick",
+        "text": "Oberfläche, Server, Datenbank und Deployment. Ich verstehe das ganze Projekt."
+      },
+      "learning": {
+        "title": "Ständiges Lernen",
+        "text": "Zahlungen, Scraping, Echtzeit: Jedes Projekt hat mich etwas Neues meistern lassen."
+      }
+    },
+    "lookingLabel": "Was ich suche",
+    "lookingText": "Eine Stelle als Full-Stack-Webentwickler oder Programmierer. Freelance-Projekte übernehme ich ebenfalls."
+  },
+  "projects": {
+    "title": "Fünf Projekte online. Fünf verschiedene Probleme.",
+    "intro": "Alle Bilder sind echte Screenshots der jeweiligen Website. Die angegebenen Technologien sind im Quellcode nachgewiesen.",
+    "labels": {
+      "problem": "Die Anforderung",
+      "features": "Was es kann",
+      "stack": "Technologien",
+      "visit": "Website besuchen",
+      "code": "Code ansehen",
+      "codePrivate": "Code nicht öffentlich",
+      "screenshot": "Screenshot der Website von {name}",
+      "screenshotMobile": "Screenshot von {name} auf dem Smartphone",
+      "scrollHint": "Mit dem Cursor darüberfahren, um durch die Seite zu scrollen"
+    },
+    "items": {
+      "suplementacion": {
+        "name": "Suplementación Deportiva",
+        "kind": "E-Commerce",
+        "summary": "Onlineshop für Sporternährung mit dem kompletten Kaufprozess: Katalog, Warenkorb, Bezahlung und Bestellverfolgung.",
+        "problem": "Nahrungsergänzungsmittel online verkaufen, mit einem schnellen Weg zum Finden, Vergleichen und Kaufen, und den Shop Produkte und Bestellungen selbst verwalten lassen.",
+        "features": {
+          "0": "Online-Zahlung mit Stripe",
+          "1": "Admin-Bereich mit Produkten, Bestellungen und Statistiken",
+          "2": "Katalog mit Suche, Filtern und Sortierung",
+          "3": "Warenkorb und Merkliste",
+          "4": "Bestellhistorie für Kunden",
+          "5": "Angebot des Tages mit Countdown",
+          "6": "Club Elite mit Vorteilen für Mitglieder",
+          "7": "Technisches SEO mit Sitemap und robots.txt"
+        }
+      },
+      "carboom": {
+        "name": "CarBoom",
+        "kind": "Automobil",
+        "summary": "Website für ein Gebrauchtwagenhaus in Alicante, dessen Katalog aus den eigenen Wallapop-Anzeigen gespeist wird.",
+        "problem": "Den Bestand nicht doppelt pflegen: Die auf Wallapop veröffentlichten Autos werden ausgelesen und auf der Website des Autohauses angezeigt.",
+        "features": {
+          "0": "Auslesen der Wallapop-Anzeigen mit Puppeteer und Cheerio",
+          "1": "Zeitgesteuerte Katalog-Synchronisierung mit Vercel Cron",
+          "2": "Katalog mit Fotos, Modell und Preis jedes Fahrzeugs",
+          "3": "Direkter Kontakt über WhatsApp",
+          "4": "Für Mobilgeräte optimiertes Design"
+        }
+      },
+      "aulas": {
+        "name": "Aulas",
+        "kind": "Bildungsplattform",
+        "summary": "Virtuelles Klassenzimmer, um Gruppen und Fächer zu organisieren, Materialien in der Cloud zu teilen und innerhalb jeder Klasse zu kommunizieren.",
+        "problem": "Materialien und Kommunikation einer Klasse an einem Ort bündeln, mit unterschiedlichen Berechtigungen je nach Rolle.",
+        "features": {
+          "0": "Registrierung, Anmeldung und Passwort-Wiederherstellung",
+          "1": "Gruppen und Fächer",
+          "2": "Hoch- und Herunterladen von Materialien",
+          "3": "Rollen und Berechtigungen innerhalb jeder Gruppe",
+          "4": "Chat pro Gruppe und pro Fach"
+        },
+        "treeTitle": "Tatsächliche App-Struktur",
+        "treeNote": "Aus dem Repository übernommen. Die Plattform erfordert ein Konto, daher ist nur die Anmeldung öffentlich."
+      },
+      "powerfitt": {
+        "name": "Reservas PowerFitt",
+        "kind": "Online-Terminbuchung",
+        "summary": "Terminbuchungssystem für einen Service mit Ernährungs- und Trainingsplänen.",
+        "problem": "Kunden sollen in wenigen Schritten einen Termin buchen können, ohne Anrufe oder Nachrichten, und der Anbieter verwaltet den Kalender über ein Dashboard.",
+        "features": {
+          "0": "Geführte Buchung in drei Schritten: Daten, Datum und Uhrzeit, Bestätigung",
+          "1": "Freie Zeitfenster in Echtzeit mit Socket.IO",
+          "2": "Admin-Bereich mit geschütztem Zugang",
+          "3": "Buchungen verwalten, verschieben und stornieren",
+          "4": "Automatische E-Mails zur Bestätigung und Terminänderung"
+        }
+      },
+      "efitec": {
+        "name": "Efitec",
+        "kind": "Unternehmenswebsite",
+        "summary": "Unternehmenswebsite für eine Beratung für Energieeffizienz in Alicante.",
+        "problem": "Die Leistungen des Unternehmens klar präsentieren und Besuchern die Kontaktaufnahme erleichtern.",
+        "features": {
+          "0": "Darstellung der Leistungen und des Arbeitsablaufs",
+          "1": "Kontaktformular, das an das Postfach des Unternehmens sendet",
+          "2": "Kontakt über WhatsApp und Links zu sozialen Netzwerken",
+          "3": "Impressum, Datenschutz- und Cookie-Richtlinien",
+          "4": "Für Mobilgeräte optimiertes Design"
+        }
+      }
+    }
+  },
+  "stack": {
+    "title": "Woran ich arbeite und womit.",
+    "areasLabel": "Bereiche",
+    "areas": {
+      "web": {
+        "title": "Webentwicklung",
+        "text": "Schnelle, barrierearme Websites, bereit für Suchmaschinen."
+      },
+      "apps": {
+        "title": "Webanwendungen",
+        "text": "Benutzer, Rollen, Dashboards und Echtzeitdaten."
+      },
+      "ecommerce": {
+        "title": "E-Commerce",
+        "text": "Katalog, Warenkorb, Zahlungen und Bestellverwaltung."
+      },
+      "business": {
+        "title": "Lösungen für Unternehmen",
+        "text": "Unternehmenswebsites, Buchungen und Kundenkontakt."
+      },
+      "automation": {
+        "title": "Automatisierung und Datenintegration",
+        "text": "Scraping, geplante Aufgaben und Verbindung von Diensten."
+      },
+      "sysadmin": {
+        "title": "Systemadministration",
+        "text": "Server, Deployments, Bash und Wartung."
+      }
+    },
+    "matrixLabel": "Wo ich es eingesetzt habe",
+    "matrixIntro": "Jede Markierung bedeutet, dass die Technologie im Code des Projekts vorkommt.",
+    "matrixCaption": "Eingesetzte Technologien je Projekt",
+    "matrixTech": "Technologie",
+    "used": "Verwendet",
+    "notUsed": "Nicht verwendet",
+    "matrixNote": "Efitec ist nicht aufgeführt, da der Code nicht öffentlich ist.",
+    "declaredLabel": "Sprachen und Werkzeuge",
+    "declaredText": "Darüber hinaus programmiere ich in Java, Python und Bash und arbeite täglich mit SQL und Git."
+  },
+  "education": {
+    "title": "Ausbildung und Sprachen.",
+    "educationLabel": "Ausbildung",
+    "degree": "Höhere Berufsausbildung in plattformübergreifender Anwendungsentwicklung (DAM)",
+    "school": "IES Poeta Paco Mollà, Petrer (Spanien)",
+    "note": "Und ich lerne jeden Tag weiter: Jedes echte Projekt bringt mich dazu, etwas Neues zu meistern.",
+    "languagesLabel": "Sprachen",
+    "languages": {
+      "es": {
+        "name": "Spanisch",
+        "level": "Muttersprache"
+      },
+      "en": {
+        "name": "Englisch",
+        "level": "C1"
+      }
+    }
+  },
+  "contact": {
+    "title": "Bauen wir etwas, das funktioniert?",
+    "text": "Ich suche meine nächste Stelle als Full-Stack-Webentwickler oder Programmierer und bin offen für Freelance-Projekte. Erzählen Sie mir, was Sie brauchen.",
+    "cta": "Schreiben Sie mir",
+    "channelsLabel": "Kontaktwege",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "location": "Standort",
+    "copy": "E-Mail kopieren",
+    "copied": "E-Mail kopiert",
+    "copyError": "Kopieren nicht möglich. Bitte markieren Sie den Text manuell."
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "backToTop": "Nach oben"
+  },
+  "notFound": {
+    "title": "Diese Seite existiert nicht.",
+    "text": "Der Link ist möglicherweise defekt oder die Adresse enthält einen Tippfehler.",
+    "back": "Zur Startseite"
+  }
+}

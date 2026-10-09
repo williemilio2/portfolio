@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "title": "Emilio González Cánovas · Fullstack-webbutvecklare",
+    "description": "Portfolio för Emilio González Cánovas, fullstack-webbutvecklare. E-handel, bokningssystem, plattformar och företagswebbplatser som är i drift.",
+    "ogTagline": "Webbplatser som säljer, bokar och organiserar."
+  },
+  "a11y": {
+    "skip": "Hoppa till innehållet",
+    "newTab": "(öppnas i en ny flik)"
+  },
+  "nav": {
+    "label": "Huvudnavigering",
+    "home": "Start",
+    "about": "Om mig",
+    "projects": "Projekt",
+    "stack": "Teknik",
+    "education": "Utbildning",
+    "contact": "Kontakt",
+    "homeLink": "Emilio González Cánovas, gå till startsidan",
+    "menuOpen": "Öppna menyn",
+    "menuClose": "Stäng menyn",
+    "language": "Språk",
+    "currentSection": "Aktuellt avsnitt"
+  },
+  "path": {
+    "home": "start",
+    "about": "om-mig",
+    "projects": "projekt",
+    "stack": "teknik",
+    "education": "utbildning",
+    "contact": "kontakt"
+  },
+  "theme": {
+    "toggle": "Byt tema",
+    "toLight": "Aktivera ljust läge",
+    "toDark": "Aktivera mörkt läge"
+  },
+  "hero": {
+    "status": "Öppen för nya möjligheter",
+    "headline": "Webbplatser som säljer, bokar och organiserar.",
+    "lead": "Fullstack-webbutvecklare. Jag designar och bygger kompletta projekt, från databasen till den sista interaktionen.",
+    "ctaProjects": "Se projekt",
+    "ctaContact": "Kontakta mig",
+    "photoAlt": "Porträtt av Emilio González Cánovas",
+    "photoPending": "Foto på Emilio kommer snart"
+  },
+  "about": {
+    "title": "Först förstår jag vad verksamheten behöver. Sedan skriver jag koden.",
+    "p1": "Jag är fullstack-webbutvecklare med en yrkesexamen på högre nivå i plattformsoberoende applikationsutveckling. Mina projekt är publicerade och i drift: en webbutik med betalningar och adminpanel, en bilhandlares webbplats som importerar sin katalog automatiskt, ett bokningssystem, en utbildningsplattform och en företagswebbplats.",
+    "p2": "Jag har lätt för att prata med människor: jag lyssnar, frågar och omsätter det ett företag behöver i konkreta tekniska beslut. Jag anpassar mig snabbt till nya team och miljöer, arbetar mot tydliga mål och lär mig något nytt i varje projekt.",
+    "principlesLabel": "Så arbetar jag",
+    "principles": {
+      "communication": {
+        "title": "Rak kommunikation",
+        "text": "Jag förklarar tekniska saker utan jargong och frågar hellre än antar."
+      },
+      "goals": {
+        "title": "Målinriktad",
+        "text": "Varje funktion ska fylla ett syfte: sälja, boka, organisera."
+      },
+      "fullstack": {
+        "title": "Helhetssyn",
+        "text": "Gränssnitt, server, databas och driftsättning. Jag förstår hela projektet."
+      },
+      "learning": {
+        "title": "Ständigt lärande",
+        "text": "Betalningar, scraping, realtid: varje projekt har fått mig att bemästra något nytt."
+      }
+    },
+    "lookingLabel": "Vad jag söker",
+    "lookingText": "En tjänst som fullstack-webbutvecklare eller programmerare. Jag tar också frilansuppdrag."
+  },
+  "projects": {
+    "title": "Fem publicerade projekt. Fem olika problem.",
+    "intro": "Alla bilder är riktiga skärmdumpar av respektive webbplats. Teknikerna som anges är verifierade i källkoden.",
+    "labels": {
+      "problem": "Behovet",
+      "features": "Vad den gör",
+      "stack": "Teknik",
+      "visit": "Besök webbplatsen",
+      "code": "Visa koden",
+      "codePrivate": "Privat kod",
+      "screenshot": "Skärmdump av webbplatsen {name}",
+      "screenshotMobile": "Skärmdump av {name} i mobilen",
+      "scrollHint": "För muspekaren över för att bläddra genom sidan"
+    },
+    "items": {
+      "suplementacion": {
+        "name": "Suplementación Deportiva",
+        "kind": "E-handel",
+        "summary": "Webbutik för sportnutrition med hela köpflödet: katalog, varukorg, betalning och orderuppföljning.",
+        "problem": "Sälja kosttillskott på nätet med ett smidigt sätt att hitta, jämföra och köpa, och låta butiken själv hantera produkter och ordrar.",
+        "features": {
+          "0": "Onlinebetalning med Stripe",
+          "1": "Adminpanel med produkter, ordrar och statistik",
+          "2": "Katalog med sökning, filter och sortering",
+          "3": "Varukorg och önskelista",
+          "4": "Orderhistorik för kunden",
+          "5": "Dagens erbjudande med nedräkning",
+          "6": "Club Elite med medlemsförmåner",
+          "7": "Teknisk SEO med sitemap och robots"
+        }
+      },
+      "carboom": {
+        "name": "CarBoom",
+        "kind": "Fordon",
+        "summary": "Webbplats för en begagnatbilhandlare i Alicante, med en katalog som hämtas från handlarens annonser på Wallapop.",
+        "problem": "Slippa hålla lagret på två ställen: bilarna som publiceras på Wallapop hämtas och visas på bilhandlarens webbplats.",
+        "features": {
+          "0": "Hämtning av Wallapop-annonser med Puppeteer och Cheerio",
+          "1": "Schemalagd synkronisering av katalogen med Vercel Cron",
+          "2": "Katalog med foto, modell och pris för varje bil",
+          "3": "Direktkontakt via WhatsApp",
+          "4": "Mobilanpassad design"
+        }
+      },
+      "aulas": {
+        "name": "Aulas",
+        "kind": "Utbildningsplattform",
+        "summary": "Virtuellt klassrum för att organisera grupper och ämnen, dela material i molnet och kommunicera inom varje klass.",
+        "problem": "Samla en klass material och kommunikation på ett ställe, med olika behörigheter beroende på varje persons roll.",
+        "features": {
+          "0": "Registrering, inloggning och återställning av lösenord",
+          "1": "Grupper och ämnen",
+          "2": "Uppladdning och nedladdning av material",
+          "3": "Roller och behörigheter inom varje grupp",
+          "4": "Chatt per grupp och per ämne"
+        },
+        "treeTitle": "Appens faktiska struktur",
+        "treeNote": "Hämtad från kodförrådet. Plattformen kräver ett konto, därför är bara inloggningen offentlig."
+      },
+      "powerfitt": {
+        "name": "Reservas PowerFitt",
+        "kind": "Onlinebokning",
+        "summary": "Bokningssystem för en tjänst med kost- och träningsupplägg.",
+        "problem": "Låta kunder boka en tid i några få steg, utan samtal eller meddelanden, och låta yrkespersonen hantera schemat från en panel.",
+        "features": {
+          "0": "Guidad bokning i tre steg: uppgifter, datum och tid, bekräftelse",
+          "1": "Lediga tider uppdateras i realtid med Socket.IO",
+          "2": "Adminpanel med skyddad åtkomst",
+          "3": "Hantera, flytta och avboka bokningar",
+          "4": "Automatiska mejl vid bekräftelse och ändrad tid"
+        }
+      },
+      "efitec": {
+        "name": "Efitec",
+        "kind": "Företagswebbplats",
+        "summary": "Företagswebbplats för en konsultfirma inom energieffektivisering i Alicante.",
+        "problem": "Presentera företagets tjänster tydligt och göra det enkelt för besökare att ta kontakt.",
+        "features": {
+          "0": "Presentation av tjänster och arbetsprocess",
+          "1": "Kontaktformulär som skickar till företagets e-post",
+          "2": "Kontakt via WhatsApp och länkar till sociala medier",
+          "3": "Juridisk information, integritets- och cookiepolicy",
+          "4": "Mobilanpassad design"
+        }
+      }
+    }
+  },
+  "stack": {
+    "title": "Vad jag arbetar med och vilka verktyg jag använder.",
+    "areasLabel": "Områden",
+    "areas": {
+      "web": {
+        "title": "Webbutveckling",
+        "text": "Snabba, tillgängliga webbplatser redo för sökmotorer."
+      },
+      "apps": {
+        "title": "Webbapplikationer",
+        "text": "Användare, roller, paneler och data i realtid."
+      },
+      "ecommerce": {
+        "title": "E-handel",
+        "text": "Katalog, varukorg, betalningar och orderhantering."
+      },
+      "business": {
+        "title": "Lösningar för företag",
+        "text": "Företagswebbplatser, bokningar och kundkontakt."
+      },
+      "automation": {
+        "title": "Automatisering och dataintegration",
+        "text": "Scraping, schemalagda jobb och kopplingar mellan tjänster."
+      },
+      "sysadmin": {
+        "title": "Systemadministration",
+        "text": "Servrar, driftsättning, Bash och underhåll."
+      }
+    },
+    "matrixLabel": "Var jag har använt det",
+    "matrixIntro": "Varje markering betyder att tekniken finns i projektets kod.",
+    "matrixCaption": "Teknik som används i varje projekt",
+    "matrixTech": "Teknik",
+    "used": "Används",
+    "notUsed": "Används inte",
+    "matrixNote": "Efitec finns inte med eftersom koden inte är offentlig.",
+    "declaredLabel": "Språk och verktyg",
+    "declaredText": "Utöver detta programmerar jag i Java, Python och Bash, och arbetar dagligen med SQL och Git."
+  },
+  "education": {
+    "title": "Utbildning och språk.",
+    "educationLabel": "Utbildning",
+    "degree": "Yrkesexamen på högre nivå i plattformsoberoende applikationsutveckling (DAM)",
+    "school": "IES Poeta Paco Mollà, Petrer (Spanien)",
+    "note": "Och jag fortsätter lära mig varje dag: varje riktigt projekt får mig att bemästra något nytt.",
+    "languagesLabel": "Språk",
+    "languages": {
+      "es": {
+        "name": "Spanska",
+        "level": "Modersmål"
+      },
+      "en": {
+        "name": "Engelska",
+        "level": "C1"
+      }
+    }
+  },
+  "contact": {
+    "title": "Ska vi bygga något som fungerar?",
+    "text": "Jag söker min nästa tjänst som fullstack-webbutvecklare eller programmerare och är öppen för frilansuppdrag. Berätta vad du behöver.",
+    "cta": "Skriv till mig",
+    "channelsLabel": "Kontaktvägar",
+    "email": "E-post",
+    "phone": "Telefon",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "location": "Plats",
+    "copy": "Kopiera e-post",
+    "copied": "E-post kopierad",
+    "copyError": "Det gick inte att kopiera. Markera texten manuellt."
+  },
+  "footer": {
+    "rights": "Alla rättigheter förbehållna.",
+    "backToTop": "Tillbaka till toppen"
+  },
+  "notFound": {
+    "title": "Den här sidan finns inte.",
+    "text": "Länken kan vara trasig eller adressen innehålla ett stavfel.",
+    "back": "Till startsidan"
+  }
+}

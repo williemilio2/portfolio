@@ -1,0 +1,199 @@
+@import "tailwindcss";
+
+/*
+ * Sistema visual "trazado": una línea técnica recorre el portfolio y conecta
+ * las secciones como si fueran commits de una misma rama.
+ * Los colores se definen como tokens semánticos y se redefinen por tema
+ * mediante [data-theme] (lo fija un script en <head> antes del primer pintado).
+ */
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+:root {
+  /* Tema claro: gris frío técnico, sin blancos puros */
+  --bg: #eef1f4;
+  --bg-elevated: #f7f8fa;
+  --surface: #e4e8ed;
+  --line: #cfd5dc;
+  --line-strong: #aab3bd;
+  --fg: #0b0f14;
+  --fg-muted: #46505c;
+  --fg-subtle: #5f6a77;
+  --accent: #d4ff3a;
+  --accent-ink: #0b0f14;
+  /* El lima no alcanza contraste como texto sobre fondo claro: variante oliva */
+  --accent-text: #4a6a00;
+  --accent-line: #6f9400;
+  --focus: #4a6a00;
+  --shadow: 210 20% 30%;
+  --grid-line: rgb(11 15 20 / 0.06);
+  --selection: #d4ff3a;
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  /* Tema oscuro: negros azulados con profundidad */
+  --bg: #080b0f;
+  --bg-elevated: #0d1116;
+  --surface: #131820;
+  --line: #1d242d;
+  --line-strong: #2f3944;
+  --fg: #e8ecf1;
+  --fg-muted: #a1aab6;
+  --fg-subtle: #7f8995;
+  --accent: #d4ff3a;
+  --accent-ink: #0b0f14;
+  --accent-text: #d4ff3a;
+  --accent-line: #d4ff3a;
+  --focus: #d4ff3a;
+  --shadow: 215 40% 2%;
+  --grid-line: rgb(232 236 241 / 0.045);
+  --selection: #d4ff3a;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-surface: var(--surface);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--fg-muted);
+  --color-fg-subtle: var(--fg-subtle);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-text: var(--accent-text);
+  --color-accent-line: var(--accent-line);
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, "SFMono-Regular", monospace;
+
+  --radius-sm: 2px;
+  --radius-md: 4px;
+
+  --ease-out-expo: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+
+  --breakpoint-xs: 26rem;
+  --breakpoint-nav: 72rem;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    scroll-padding-top: 5.5rem;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    font-feature-settings: "ss01", "cv11";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: clip;
+  }
+
+  ::selection {
+    background-color: var(--selection);
+    color: var(--accent-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 3px;
+    border-radius: var(--radius-sm);
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@layer components {
+  .container-page {
+    width: 100%;
+    max-width: 1400px;
+    margin-inline: auto;
+    padding-inline: max(1rem, env(safe-area-inset-left));
+  }
+
+  @media (min-width: 40rem) {
+    .container-page {
+      padding-inline: 1.5rem;
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .container-page {
+      padding-inline: 2.5rem;
+    }
+  }
+
+  /* Deja hueco a la línea de trazado en pantallas anchas */
+  @media (min-width: 80rem) {
+    .trace-content {
+      padding-left: 5rem;
+    }
+  }
+
+  /* Etiqueta técnica en monoespaciada */
+  .label-mono {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  /* Retícula técnica del hero, se desvanece hacia los bordes */
+  .hero-grid {
+    background-image:
+      linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+    background-size: 64px 64px;
+    mask-image: radial-gradient(ellipse 70% 60% at 30% 40%, #000 30%, transparent 75%);
+  }
+
+  .shadow-frame {
+    box-shadow:
+      0 1px 0 0 hsl(var(--shadow) / 0.04),
+      0 24px 48px -24px hsl(var(--shadow) / 0.35);
+  }
+}
+
+/* Transición de tema con View Transitions (fundido breve, sin parpadeo) */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 260ms;
+  animation-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
