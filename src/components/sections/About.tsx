@@ -1,5 +1,6 @@
-import { ChatsCircleIcon, LightningIcon, TargetIcon, TreeStructureIcon } from "@phosphor-icons/react/ssr";
+import { ChatsCircleIcon, LightningIcon, TargetIcon, TreeStructureIcon, FileArrowDownIcon } from "@phosphor-icons/react/ssr";
 import { getTranslations } from "next-intl/server";
+import { ButtonLink } from "@/components/ui/ButtonLink";
 
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHeading } from "@/components/ui/SectionHeading";
@@ -25,6 +26,9 @@ export async function About() {
                 <span className="text-fg">{t("p1")}</span>
               </p>
               <p>{t("p2")}</p>
+              <ButtonLink href="/cv.pdf" download="Emilio_Gonzalez_CV.pdf" icon={<FileArrowDownIcon size={18} weight="bold" />} nudge="down">
+                {t("cv")}
+              </ButtonLink>
             </Reveal>
           </div>
 

@@ -48,6 +48,7 @@
     "title": "First I understand what the business needs. Then I write the code.",
     "p1": "I'm a full stack web developer with a Higher Vocational Diploma in Cross-Platform Application Development. My projects are live and working: an online store with payments and an admin panel, a car dealership site that imports its catalogue automatically, a booking system, an education platform and a corporate website.",
     "p2": "Talking to people comes naturally to me: I listen, ask questions and turn what a company needs into concrete technical decisions. I adapt quickly to new teams and environments, I work towards clear goals, and every project teaches me something new.",
+    "cv" : "Download CV",
     "principlesLabel": "How I work",
     "principles": {
       "communication": {
